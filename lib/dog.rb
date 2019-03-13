@@ -1,5 +1,4 @@
-#=begin
-class Dog(name, breed)
+class Dog
   def initialize(name, breed)
     @name = name
     if breed == ""
@@ -9,4 +8,3 @@ class Dog(name, breed)
     end
   end
 end
-# =end
